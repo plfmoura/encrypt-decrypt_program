@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Encriptador de Texto</title>
+		<link rel="stylesheet" href="assets/reset.css">
+		<link rel="stylesheet" href="assets/style.css">
+		<link rel="stylesheet" href="fontawesome/css/all.min.css">
+	</head>
+	<body>
+		<section class="programa__container">
+			<div class="esquerda__container">
+				<div class="titulo__principal">
+					<h1>Criptador & Descriptador</h1>
+					<h2>1.0v</h2>
+				</div>
+				
+				<div class="caixa__esquerda">
+					<textarea placeholder="Digite para começar!" class="input__esquerda" id="inputTexto"></textarea>
+					<label>* Não utilize letras maiúsculas e nem acentos</label>
+					
+				</div>
+
+				<div class="botoes__container">
+					<button class="btn" onclick="codificar()">
+						Codificar
+					</button>
+					<button class="btn" onclick="decodificar()">
+						Decodificar
+					</button>
+				</div>
+			</div>
+
+			<div class="direita__container">
+				<div id="resposta"></div>
+				<div class="alinhamento__caixa">
+					<p id="mensagem1">Nenhuma mensagem encontrada</p>
+					<img src="assets/img/change.png" id="imagem">
+					<p id="mensagem2">Digite um texto para ser criptografado ou descriptografado</p>
+				</div>
+				<button class="btn-copiar" id="copiar">Copiar</button>
+			</div>
+
+			<div class="rodape__assinatura">
+				<p>Desenvolvido por Pedro Moura 2022</p>
+				<p>Desafio Alura I</p>
+			</div>
+		</section>
+
+		<script src="scripts/script.js"></script>
+	</body>
+</html>

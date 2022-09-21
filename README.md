@@ -1,2 +1,9 @@
-# encrypt-decrypt_program
-Program to encrypt and decrypt text
+* Projeto 
+
+  **Codificador e descodificador de texto**
+
+  - ALURA CURSOS - **DESAFIO I**
+
+  **Pedro Moura** 2022
+
+  
