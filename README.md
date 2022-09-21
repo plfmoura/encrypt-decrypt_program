@@ -1,6 +1,6 @@
 * Projeto 
 
-  **Codificador e descodificador de texto**
+  **Codificador e decodificador de texto**
 
   - ALURA CURSOS - **DESAFIO I**
 
