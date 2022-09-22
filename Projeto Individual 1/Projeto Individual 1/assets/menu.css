@@ -1,0 +1,45 @@
+.menu__container {
+    background: url("img/background.jpg");
+    background-size: 110%;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    justify-content: right;
+    box-shadow: 0 2px 20px grey;
+}
+
+.menu__lista {
+    display: flex;
+    width: 25rem;
+    height: 37px;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: .50rem;
+    text-align: center;
+    padding-right: 2rem;
+}
+
+.menu__item {
+    display: flex;
+    font-size: 24px;
+    height: 29px;
+}
+
+.menu__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+    width: 7.6rem;
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+

@@ -1,0 +1,29 @@
+.rodape__container {
+    width: 100%;
+    height: 5rem;
+    background: url("img/background2.jpg");
+    background-position: center bottom;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.rodape {
+    display: flex;
+    width: 100%;
+    justify-content: space-between
+}
+
+.desenvolvido {
+    font-size: 18px;
+    color: white;
+    margin-right: 5rem;
+}
+
+.projeto__individual {
+    font-size: 18px;
+    color: white;
+    margin-left: 5rem;
+    align-self: left;
+}
+

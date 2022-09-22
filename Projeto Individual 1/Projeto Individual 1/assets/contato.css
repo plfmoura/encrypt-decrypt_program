@@ -1,0 +1,130 @@
+.contato__titulo {
+    width: 100vw;
+    height: 3rem;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+}
+
+.contato {
+    width: 100%;
+    height: 40rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: sans-serif;
+    background: url("img/background.jpg");
+    background-size: 200%;
+    background-position: center right;
+}
+
+.section-contato__container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+
+.contato__container {
+    display: flex;
+    flex-direction: column;
+    width: 38rem;
+    height: 14rem;
+    justify-content: space-between;
+    box-shadow: 5px 5px 10px grey;
+    background: white; 
+}
+
+/*REDE SOCIAIS*/
+
+.redes-sociais__texto {
+    width: 38rem;
+    height: 1rem;
+    text-align: center;
+    font-size: 14px;
+    margin-top: -1rem;
+    color: grey;
+}
+
+.redes__sociais {
+    width: 38rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.facebook__item {
+    background: url("img/facebook-logo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem 1rem;
+
+}
+
+.instagram__item {
+    background: url("img/instagram-logo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem 1rem;
+}
+
+.linkedin__item {
+    background: url("img/linkedin-logo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem 1rem;
+
+}
+
+.whatsapp__item {
+    background: url("img/whatsapp-logo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem 1rem;
+
+}
+
+.gitHub__item {
+    background: url("img/github-logo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem 1rem;
+
+}
+
+.whatsapp__item:hover,
+.gitHub__item:hover,
+.linkedin__item:hover,
+.instagram__item:hover,
+.facebook__item:hover {
+    box-shadow: 0 2px 20px grey;
+    border-radius: 28%;
+    margin: 0 1rem;
+}
+
+
+/*address*/
+.endereco__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    height: 3.5rem;
+    padding-bottom: 1rem;
+}
+

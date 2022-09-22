@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    
+    margin: 5rem auto;
+}
+.container {
+    width: 50rem;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5rem auto;
+}
+
+p {
+    width: 50%;
+    height: 50%;
+}
+
+.container p:nth-child(1) {
+    background: red;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.container p:nth-child(2) {
+    background: yellow;
+}
+
+.container p:nth-child(3) {
+    background: green;
+}
+
+.container p:nth-child(4) {
+    background: blue;
+}
+

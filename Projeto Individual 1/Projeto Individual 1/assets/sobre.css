@@ -1,0 +1,146 @@
+.img__container {
+    width: 90vw;
+    height: 20rem;
+    margin: 2rem auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: .2rem;
+}
+
+.img__pedro:nth-child(1) {
+    background: url("img/foto-pedro2.jpg");
+    background-size: 190%;
+    background-position: center;
+    background-position-x: 53%;
+    background-position-y: 20%;
+
+    background-repeat: no-repeat;
+    grid-column: 1/2;
+    
+}
+
+.img__pedro:nth-child(3) {
+    background: url("img/pedro-militar2.jpg") no-repeat center;
+    background-size: 110%;
+    background-position-x: 70%;
+    background-position-y: 24%;
+    grid-column: 3/4;
+}
+
+.img__pedro:nth-child(2) {
+    background: url("img/pedro-amigos.jpg");
+    background-size: 120%;
+    background-position: right 40%;
+    background-repeat: no-repeat;
+    background-position-x: 18%;
+    grid-column: 2/3;
+}
+
+/*sobre*/
+
+.sobre__textos {
+    width: 85vw;
+    height: 24rem;
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 20px rgb(230, 230, 230);
+}
+
+.sobre__divisao {
+    width: 30%;
+    height: 22rem;
+    flex-direction: row;
+    margin: 0 auto;
+    margin: 1rem auto;
+}
+
+.subtitulos_sobre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+    width: 100vw;
+    height: 3rem;
+    flex-direction: column;
+    margin-top: 0.2rem;
+    
+}
+
+.sobre__subtitulo {
+    font-size: 32px;
+    width: 19rem;
+    height: 2rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding: 1rem;
+    margin: 0 auto;
+    
+}
+
+
+.sobre__texto {
+    font-size: 17px;
+    width: 18rem;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+/* cursos */
+
+.academico__container {
+    width: 90vw;
+    height: 31rem;
+    display: flex;
+    margin: 2rem auto;
+}
+
+.academico__textos {
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0 1rem;
+    box-shadow: 0 2px 20px rgb(230, 230, 230);
+}
+
+.academico__titulo {
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+}
+
+.academico__textos div {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.academico__textos div:nth-child(4) {
+    margin-bottom: 2rem;
+}
+
+.academicos__icones {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 25%;
+    box-shadow: 0 2px 20px rgb(230, 230, 230);
+    margin: 1rem;
+}
+
+.academicos__icones:hover {
+    border-radius: 25%;
+    box-shadow: 0 2px 20px rgb(134, 130, 130);
+}
+
+.item__textos {
+    width: 50rem;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    margin: auto 0;
+}

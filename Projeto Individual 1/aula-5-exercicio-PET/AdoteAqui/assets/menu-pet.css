@@ -1,0 +1,38 @@
+.menu__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 4rem;
+    background: dimgrey;
+}
+
+.menu__titulo {
+    font-size: 3rem;
+    color: rgb(240, 196, 86);
+    font-family: sans-serif;
+    font-weight: 600;
+    margin: auto 2rem;
+}
+
+.menu__content {
+    width: 25rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(243, 199, 88);
+    
+}
+
+.menu__item {
+    list-style: none;
+}
+
+.menu__link {
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 550;
+    text-decoration: none;
+    color: rgb(53, 49, 49);
+}
